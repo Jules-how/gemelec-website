@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Gemelec Electrical Services</title>
+  <meta name="description" content="Switchboard upgrades, LED lighting, EV charger installation, emergency electrician, commercial electrical and security systems across Sydney.">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+  .nav-logo-wordmark { display: flex; align-items: center; gap: 1px; line-height: 1; }
+  .logo-gem { font-family: 'Barlow Condensed', sans-serif; font-size: 22px; font-weight: 800; color: #3cb0b2; letter-spacing: -0.02em; }
+  .logo-lec { font-family: 'Barlow Condensed', sans-serif; font-size: 22px; font-weight: 800; color: #faed27; letter-spacing: -0.02em; }
+  .logo-bolt { margin-bottom: 1px; flex-shrink: 0; }
+  .nav-logo-sub { font-size: 9px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: #666; margin-top: 3px; display: block; }
+  .nav-logo { text-decoration: none; display: flex; flex-direction: column; }
+  .nav-dropdown { position: relative; }
+  .nav-dropdown-toggle { display: flex; align-items: center; gap: 4px; cursor: pointer; }
+  .nav-dropdown-menu { display: none; position: absolute; top: calc(100% + 16px); left: -16px; width: 220px; background: #1a1a1a; border: 1px solid rgba(60,176,178,0.2); border-radius: 8px; padding: 8px 0; z-index: 200; box-shadow: 0 8px 24px rgba(0,0,0,0.4); }
+  .nav-dropdown:hover .nav-dropdown-menu { display: flex; flex-direction: column; }
+  .nav-dropdown-menu a { padding: 10px 16px; font-size: 14px; color: rgba(255,255,255,0.75); transition: color 0.15s, background 0.15s; }
+  .nav-dropdown-menu a:hover { color: #3cb0b2; background: rgba(60,176,178,0.05); }
+  .nav-dropdown-all { border-top: 1px solid rgba(255,255,255,0.06); margin-top: 4px; padding-top: 12px !important; color: #3cb0b2 !important; font-weight: 600 !important; }
+  .btn-primary { background: #faed27 !important; color: #0d0d0d !important; border-color: #faed27 !important; }
+  .btn-primary:hover { background: #e0d420 !important; border-color: #e0d420 !important; }
+  .nav-phone { color: rgba(255,255,255,0.8); font-size: 15px; font-weight: 600; display: flex; align-items: center; gap: 6px; }
+  .nav-phone svg { flex-shrink: 0; }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-wordmark">
+          <span class="logo-gem">GEM</span><svg class="logo-bolt" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#faed27" stroke="none"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg><span class="logo-lec">LEC</span>
+        </div>
+        <span class="nav-logo-sub">Electrical Services</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="nav-dropdown">
+          <a href="services.html" class="nav-dropdown-toggle active">Services <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+          <div class="nav-dropdown-menu">
+            <a href="#switchboard">Switchboard Upgrades</a>
+            <a href="#lighting">LED Lighting &amp; Downlights</a>
+            <a href="#ev">EV Charger Installation</a>
+            <a href="#emergency">Emergency Electrician</a>
+            <a href="#commercial">Commercial Electrical</a>
+            <a href="#security">Security &amp; Access Control</a>
+          </div>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="tel:0498351351" class="nav-phone">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#faed27" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.62 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          0498 351 351
+        </a>
+        <a href="contact.html" class="btn btn-primary btn-sm">Get a Quote</a>
+      </div>
+      <button class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+    <a href="tel:0498351351" class="btn btn-primary">Call 0498 351 351</a>
+  </div>
+</nav>
+
+<!-- PAGE HEADER -->
+<section class="page-header">
+  <div class="container">
+    <span class="label">Everything We Do</span>
+    <h1 class="h1 text-white">ALL ELECTRICAL SERVICES.<br><em style="color: #faed27; font-style: normal;">SYDNEY WIDE.</em></h1>
+    <p style="color: rgba(255,255,255,0.55); font-size: 17px; margin-top: 16px; max-width: 520px; line-height: 1.7;">Residential, commercial, and industrial. Gemelec handles the full scope of electrical work across Greater Sydney.</p>
+  </div>
+</section>
+
+<!-- SERVICES ALTERNATING LAYOUT -->
+<div class="services-alt">
+
+  <!-- 1. Switchboard Upgrades -->
+  <div class="service-alt" id="switchboard">
+    <div class="service-alt-photo">
+      <img src="https://gemelecweb-wcminrdj.manus.space/manus-storage/Gemelecswitchboard_8205abc2.jpg" alt="Switchboard Upgrades">
+    </div>
+    <div class="service-alt-content">
+      <span class="label">Switchboards</span>
+      <h2>Switchboard<br>Upgrades</h2>
+      <p>Most Sydney homes built before 2000 still have the original fuse box. Modern safety switches are a legal requirement — and they save lives. We upgrade residential and commercial switchboards to current standards, fast.</p>
+      <ul class="service-bullets">
+        <li>Fuse box replacement with modern circuit breakers</li>
+        <li>Safety switch (RCD) installation</li>
+        <li>Three-phase upgrades for EV chargers and solar</li>
+        <li>Compliance certificates issued same day</li>
+        <li>Same-day service available on most jobs</li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+    </div>
+  </div>
+
+  <!-- 2. LED Lighting -->
+  <div class="service-alt flipped" id="lighting">
+    <div class="service-alt-photo">
+      <img src="https://gemelecweb-wcminrdj.manus.space/manus-storage/GemelecHomeLighting_06f7cbb1.jpg" alt="LED Lighting &amp; Downlights">
+    </div>
+    <div class="service-alt-content">
+      <span class="label">Lighting</span>
+      <h2>LED Lighting<br>&amp; Downlights</h2>
+      <p>LED downlights have come a long way. Better light quality, lower energy bills, and they last for years. We supply and install LED downlights, feature lighting, outdoor lighting, and commercial fitouts.</p>
+      <ul class="service-bullets">
+        <li>LED downlight installation and replacement</li>
+        <li>Dimmer switches and smart lighting</li>
+        <li>Outdoor and garden lighting</li>
+        <li>Commercial lighting fitouts and retrofits</li>
+        <li>Energy-efficient upgrades with real bill savings</li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+    </div>
+  </div>
+
+  <!-- 3. EV Charger -->
+  <div class="service-alt" id="ev">
+    <div class="service-alt-photo">
+      <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663302474007/WCmiNRdJh9j9zygbByiGDw/gemelec-ev-charger-gR5GVTxbTA9bkSXgUZni7y.webp" alt="EV Charger Installation">
+    </div>
+    <div class="service-alt-content">
+      <span class="label">EV Charging</span>
+      <h2>EV Charger<br>Installation</h2>
+      <p>Gemelec are certified EV charger installers for all major brands. We assess your switchboard, install the charger, and certify the work — from single-phase home chargers to three-phase commercial stations.</p>
+      <ul class="service-bullets">
+        <li>Tesla, Ocular, Wallbox, and all major brands</li>
+        <li>Single and three-phase installations</li>
+        <li>Switchboard assessment and upgrade if required</li>
+        <li>Strata and apartment building installations</li>
+        <li>Commercial fleet charging setup</li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+    </div>
+  </div>
+
+  <!-- 4. Emergency -->
+  <div class="service-alt flipped" id="emergency">
+    <div class="service-alt-photo">
+      <img src="https://gemelecweb-wcminrdj.manus.space/manus-storage/177688B0-4585-4E36-BAEB-C7F10B7C834D_1_105_c_f57ad175.jpeg" alt="24/7 Emergency Electrician">
+    </div>
+    <div class="service-alt-content">
+      <span class="label">Emergency</span>
+      <h2>24/7 Emergency<br>Electrician</h2>
+      <p>Power out at 3am? Sparking outlet? Burning smell? We answer every after-hours call — no voicemail, no call centre, no delays. Manny and the team have never missed an after-hours callout in 5 years of business.</p>
+      <ul class="service-bullets">
+        <li>Power outages and tripped switchboards</li>
+        <li>Sparking or burning smell from outlets</li>
+        <li>Storm and flood damage</li>
+        <li>Commercial after-hours faults</li>
+        <li>Real electrician answers — every time</li>
+      </ul>
+      <a href="tel:0498351351" class="btn btn-primary">Call Now — 0498 351 351</a>
+    </div>
+  </div>
+
+  <!-- 5. Commercial -->
+  <div class="service-alt" id="commercial">
+    <div class="service-alt-photo">
+      <img src="https://gemelecweb-wcminrdj.manus.space/manus-storage/GemelecFactoryCables_931edd4a.jpg" alt="Commercial Electrical">
+    </div>
+    <div class="service-alt-content">
+      <span class="label">Commercial</span>
+      <h2>Commercial<br>Electrical</h2>
+      <p>Strata, retail, hospitality, and industrial. Gemelec has the team and capability for commercial projects of any scale — with the responsiveness you only get from a local operator who cares.</p>
+      <ul class="service-bullets">
+        <li>Strata and body corporate electrical</li>
+        <li>Retail and hospitality fitouts</li>
+        <li>Industrial and factory electrical</li>
+        <li>Planned maintenance and compliance</li>
+        <li>24/7 emergency commercial callouts</li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+    </div>
+  </div>
+
+  <!-- 6. Security -->
+  <div class="service-alt flipped" id="security">
+    <div class="service-alt-photo">
+      <img src="https://gemelecweb-wcminrdj.manus.space/manus-storage/522678DD-F9D2-4AED-8012-E5417DA7493D_1_105_c_db07a847.jpeg" alt="Security &amp; Access Control">
+    </div>
+    <div class="service-alt-content">
+      <span class="label">Security</span>
+      <h2>Security &amp;<br>Access Control</h2>
+      <p>Inner Range access control, CCTV, intercom systems, and electric gates — installed and maintained by licensed electricians. We work across residential, commercial, and strata properties.</p>
+      <ul class="service-bullets">
+        <li>Inner Range Inception access control</li>
+        <li>CCTV and security camera installation</li>
+        <li>Video intercom systems</li>
+        <li>Electric gate and door automation</li>
+        <li>Strata and apartment building security</li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+    </div>
+  </div>
+
+  <!-- 7. Ceiling Fans -->
+  <div class="service-alt" id="ceiling-fans">
+    <div class="service-alt-photo">
+      <img src="https://gemelecweb-wcminrdj.manus.space/manus-storage/GemelecCeilingFanImage_e3f2a1b4.jpg" alt="Ceiling Fan Installation">
+    </div>
+    <div class="service-alt-content">
+      <span class="label">Ceiling Fans</span>
+      <h2>Ceiling Fan<br>Installation</h2>
+      <p>Supply and install ceiling fans throughout Sydney. We handle everything — new wiring, switching, and controller installation. Same-day available on most residential jobs.</p>
+      <ul class="service-bullets">
+        <li>Supply and install all ceiling fan brands</li>
+        <li>New wiring runs where required</li>
+        <li>Smart controllers and remotes</li>
+        <li>Outdoor and weatherproof fans</li>
+        <li>Replacement and removal of old fans</li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+    </div>
+  </div>
+
+  <!-- 8. General Repairs -->
+  <div class="service-alt flipped" id="repairs">
+    <div class="service-alt-photo">
+      <img src="https://gemelecweb-wcminrdj.manus.space/manus-storage/Gemelecswitchboard2_bda481ee.jpg" alt="General Electrical Repairs">
+    </div>
+    <div class="service-alt-content">
+      <span class="label">Repairs</span>
+      <h2>General Electrical<br>Repairs</h2>
+      <p>Power points, lights, exhaust fans, hot water systems, air conditioning wiring — anything that needs a licensed electrician. We don't just do big jobs. We fix the small stuff too, done right.</p>
+      <ul class="service-bullets">
+        <li>Power point installation and replacement</li>
+        <li>Light fitting installation and repairs</li>
+        <li>Exhaust fan installation</li>
+        <li>Hot water system wiring</li>
+        <li>Air conditioning electrical connections</li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+    </div>
+  </div>
+
+</div>
+
+<!-- NOT SURE CTA -->
+<section class="cta-final">
+  <div class="container">
+    <div class="cta-final-inner">
+      <div>
+        <h2 class="h2 text-white">NOT SURE WHAT YOU NEED?</h2>
+        <p>Just call. Manny will give you a straight answer, no upsell. Most enquiries get a quote within 2 hours.</p>
+      </div>
+      <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+        <a href="tel:0498351351" class="btn btn-primary btn-lg">Call 0498 351 351</a>
+        <a href="contact.html" class="btn btn-outline btn-lg">Send an Enquiry</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="nav-logo">
+          <div class="nav-logo-wordmark">
+            <span class="logo-gem">GEM</span><svg class="logo-bolt" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#faed27" stroke="none"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg><span class="logo-lec">LEC</span>
+          </div>
+          <span class="nav-logo-sub">Electrical Services</span>
+        </div>
+        <p class="footer-brand-desc">Sydney's trusted electricians for residential and commercial work. 15+ years experience. 24/7 emergency service.</p>
+        <p class="footer-license">M/L 407441888 &nbsp;|&nbsp; E/L 374553C</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="#switchboard">Switchboard Upgrades</a>
+        <a href="#lighting">LED Lighting</a>
+        <a href="#ev">EV Charger Installation</a>
+        <a href="#emergency">Emergency Electrician</a>
+        <a href="#commercial">Commercial Electrical</a>
+        <a href="#security">Security &amp; Access</a>
+      </div>
+      <div class="footer-col">
+        <h4>Service Areas</h4>
+        <a href="#">Eastern Suburbs</a>
+        <a href="#">Inner West</a>
+        <a href="#">South Sydney</a>
+        <a href="#">Sydney CBD</a>
+        <a href="#">Sutherland Shire</a>
+        <a href="#">Northern Beaches</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:0498351351" class="footer-phone">0498 351 351</a>
+        <p style="font-size: 14px; color: rgba(255,255,255,0.5); line-height: 1.6;">587 Bunnerong Rd<br>Matraville NSW 2036</p>
+        <p style="font-size: 13px; color: rgba(255,255,255,0.4); margin-top: 12px;">Available 24/7</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Gemelec Electrical Services. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

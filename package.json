@@ -1,0 +1,9 @@
+{
+  "name": "gemelec-website",
+  "version": "1.0.0",
+  "description": "Gemelec Electrical Services website",
+  "scripts": {
+    "start": "npx serve . -p 3456",
+    "dev": "npx serve . -p 3456"
+  }
+}
