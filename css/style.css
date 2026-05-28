@@ -1525,8 +1525,7 @@ textarea:focus-visible {
 
   .suburb-hero { padding: 88px 0; }
   .suburb-hero .container {
-    grid-template-columns: 1.1fr 1fr;
-    gap: 48px;
+    grid-template-columns: 1fr;
   }
   .suburb-hero__title { font-size: 52px; }
 
