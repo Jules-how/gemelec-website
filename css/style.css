@@ -2186,10 +2186,15 @@ textarea:focus-visible {
 
   /* ============ HERO (image bg) ============ */
   .gx-hero-bg { position: relative; background: #0d0d0d; color: #fff; padding: 120px 0 100px; overflow: hidden; min-height: 80vh; display: flex; align-items: center; }
-  .gx-hero-bg::before { content: ''; position: absolute; inset: 0; background-image: url('images/manus/Gemelecswitchboard_8205abc2.webp'); background-size: cover; background-position: center; opacity: 0.18; z-index: 0; }
-  .gx-hero-bg::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(13,13,13,0.85) 0%, rgba(13,13,13,0.55) 50%, rgba(13,13,13,0.92) 100%); z-index: 0; }
-  .gx-hero-bg .container { position: relative; z-index: 1; }
-  .gx-hero-bg .gx-hero-inner { max-width: 720px; }
+  .gx-hero-bg::before { content: ''; position: absolute; inset: 0; background-image: image-set(url('../images/hero-fleet.webp') type('image/webp'), url('../images/hero-fleet.jpg') type('image/jpeg')); background-size: cover; background-position: 70% center; z-index: 0; }
+  .gx-hero-bg::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(13,13,13,0.95) 0%, rgba(13,13,13,0.88) 30%, rgba(13,13,13,0.65) 55%, rgba(13,13,13,0.3) 85%, rgba(13,13,13,0.25) 100%), linear-gradient(180deg, rgba(13,13,13,0) 55%, rgba(13,13,13,0.55) 100%); z-index: 0; }
+  .gx-hero-bg .gx-hero-inner { margin-left: 0; margin-right: auto; }
+  @media (max-width: 900px) {
+    .gx-hero-bg::before { background-image: image-set(url('../images/hero-fleet-900.webp') type('image/webp'), url('../images/hero-fleet-900.jpg') type('image/jpeg')); background-position: center; }
+    .gx-hero-bg::after { background: linear-gradient(180deg, rgba(13,13,13,0.78) 0%, rgba(13,13,13,0.7) 40%, rgba(13,13,13,0.92) 100%); }
+  }
+  .gx-hero-bg .container { position: relative; z-index: 1; width: 100%; }
+  .gx-hero-bg .gx-hero-inner { max-width: 620px; margin-left: 0; margin-right: auto; }
   .gx-hero-bg h1 { font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: clamp(48px, 6vw, 78px); line-height: 1.0; letter-spacing: -0.01em; margin: 0 0 24px; color: #fff; text-transform: uppercase; }
   .gx-hero-bg h1 .accent-teal { color: #3cb0b2; display: block; }
   .gx-hero-bg h1 .line { display: block; }
