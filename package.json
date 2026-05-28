@@ -4,6 +4,7 @@
   "description": "Gemelec Electrical Services website",
   "scripts": {
     "start": "npx serve . -p 3456",
-    "dev": "npx serve . -p 3456"
+    "dev": "npx serve . -p 3456",
+    "dev:vercel": "npx vercel dev --listen 3456"
   }
 }
