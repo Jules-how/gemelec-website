@@ -1,0 +1,26 @@
+# Gemelec Electrical Services
+> Licensed Sydney electrician. Owner-operated. 24/7 emergency callouts. Eastern Suburbs, Inner West, South Sydney.
+
+## About
+Emmanuel "Mani" Gemelas runs Gemelec Electrical Services. NSW Master Licence 000108133, NSW Contractor Licence 376553C, ABN 92 647 631 267. Based at 587 Bunnerong Road, Matraville NSW 2036. Phone 0498 351 351. Email info@gemelec.sydney. Founded 2018. 15+ years trade experience.
+
+## Services
+- Emergency electrician (24/7 callouts across Sydney)
+- Switchboard upgrades (compliant with AS/NZS 3000)
+- EV charger installation (Tesla, Wallbox, Zappi, Fronius)
+- LED downlights and lighting design
+- Commercial electrical
+- Strata electrical maintenance
+- Security and access control
+- Test and tag
+
+## Service Area
+Matraville, Botany, Mascot, Eastgardens, Rosebery, Alexandria, Waterloo, Zetland, Bondi, Coogee, Randwick, Maroubra, Kingsford, Paddington, Woolloomooloo, Potts Point, Darlinghurst, Surry Hills, Redfern, Newtown, Glebe, Pyrmont, Ultimo, Chippendale
+
+## Key pages
+- [Homepage](https://gemelec-website.netlify.app/): services overview, reviews, contact
+- [Emergency Electrician](https://gemelec-website.netlify.app/services/emergency-electrician): 24/7 callouts
+- [Switchboard Upgrades](https://gemelec-website.netlify.app/services/switchboard-upgrades): pricing typically $800-$2,500
+- [EV Charger Installation](https://gemelec-website.netlify.app/services/ev-charger-installation): all major brands
+- [About](https://gemelec-website.netlify.app/about): Mani's story, licences, experience
+- [Contact](https://gemelec-website.netlify.app/contact): phone, email, quote form
