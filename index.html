@@ -31,6 +31,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
   <meta name="robots" content="index, follow">
   <meta name="author" content="Gemelec Electrical Services">
@@ -318,41 +319,139 @@
 </section>
 
 <!-- TESTIMONIALS -->
-<section class="gx-section">
+<section class="gx-section gx-reviews">
   <div class="container">
-    <div class="gx-section-head">
-      <span class="gx-eyebrow">What Customers Say</span>
-      <h2 class="gx-h2">
-        5-Star Reviews
-        <span class="accent-yellow">Across Sydney.</span>
-      </h2>
+    <div class="gx-reviews-head">
+      <div>
+        <span class="gx-eyebrow">What Customers Say</span>
+        <h2 class="gx-h2">
+          Real Reviews
+          <span class="accent-yellow">From Sydney.</span>
+        </h2>
+      </div>
+      <a class="gx-google-badge" href="https://www.google.com/maps/place/GEMELEC" target="_blank" rel="noopener" aria-label="Read all Gemelec reviews on Google">
+        <svg class="gx-google-g" viewBox="0 0 48 48" width="28" height="28" aria-hidden="true">
+          <path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3c-1.6 4.6-6 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/>
+          <path fill="#FF3D00" d="M6.3 14.7l6.6 4.8c1.8-4.4 6-7.5 10.9-7.5 3.1 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.6 8.3 6.3 14.7z"/>
+          <path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.5-5.2l-6.2-5.2c-2.1 1.4-4.7 2.3-7.3 2.3-5.3 0-9.7-3.4-11.3-8l-6.6 5.1C9.4 39.7 16.1 44 24 44z"/>
+          <path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.2 4.2-4 5.6l6.2 5.2C41 35 44 30 44 24c0-1.3-.1-2.4-.4-3.5z"/>
+        </svg>
+        <span class="gx-google-text">
+          <span>Reviews on Google</span>
+          <strong>4.8 ★★★★★ <small>(86)</small></strong>
+        </span>
+      </a>
     </div>
-    <div class="gx-testimonials-4">
-      <div class="gx-tcard-dark">
-        <div class="gx-tcard-stars">★★★★★</div>
-        <p>"I have engaged Gemelec to complete some work for me. Manny was amazing, generous with his time and very professional. In fact he returned for FREE after I forgot to include some additional items. What a gentleman! I cannot recommend Manny and his team enough."</p>
-        <div class="gx-tcard-name">G A Tigani</div>
-        <div class="gx-tcard-where">Google review</div>
+
+    <div class="swiper gx-reviews-swiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <article class="gx-rcard">
+            <div class="gx-rcard-stars">★★★★★</div>
+            <p class="gx-rcard-text">"I have engaged Gemelec to complete some work for me. Manny was amazing, generous with his time and very professional. In fact he returned for FREE after I forgot to include some additional items. I cannot recommend Manny and his team enough."</p>
+            <div class="gx-rcard-meta">
+              <div>
+                <div class="gx-rcard-name">G A Tigani</div>
+                <div class="gx-rcard-when">6 months ago</div>
+              </div>
+              <span class="gx-rcard-source"><svg viewBox="0 0 48 48" width="16" height="16" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3c-1.6 4.6-6 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8c1.8-4.4 6-7.5 10.9-7.5 3.1 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.6 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.5-5.2l-6.2-5.2c-2.1 1.4-4.7 2.3-7.3 2.3-5.3 0-9.7-3.4-11.3-8l-6.6 5.1C9.4 39.7 16.1 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.2 4.2-4 5.6l6.2 5.2C41 35 44 30 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>Posted on Google</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="swiper-slide">
+          <article class="gx-rcard">
+            <div class="gx-rcard-stars">★★★★★</div>
+            <p class="gx-rcard-text">"Shout out to Gemelec who went above and beyond to help me install my ceiling fan. The guys were communicative, easy to deal with, and even went to Beacon Lighting to pick up our fan for us. Absolutely would recommend Mani and the team for any job you need done."</p>
+            <div class="gx-rcard-meta">
+              <div>
+                <div class="gx-rcard-name">Kelly Teng</div>
+                <div class="gx-rcard-when">6 months ago</div>
+              </div>
+              <span class="gx-rcard-source"><svg viewBox="0 0 48 48" width="16" height="16" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3c-1.6 4.6-6 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8c1.8-4.4 6-7.5 10.9-7.5 3.1 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.6 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.5-5.2l-6.2-5.2c-2.1 1.4-4.7 2.3-7.3 2.3-5.3 0-9.7-3.4-11.3-8l-6.6 5.1C9.4 39.7 16.1 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.2 4.2-4 5.6l6.2 5.2C41 35 44 30 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>Posted on Google</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="swiper-slide">
+          <article class="gx-rcard">
+            <div class="gx-rcard-stars">★★★★★</div>
+            <p class="gx-rcard-text">"Harry from Gemelec arrived on time with his apprentice and installed one kitchen fan and three other lights. They were polite, cleaned up afterwards and took away rubbish. I would highly recommend them for any electrical work."</p>
+            <div class="gx-rcard-meta">
+              <div>
+                <div class="gx-rcard-name">Carolyn W.</div>
+                <div class="gx-rcard-when">2 months ago</div>
+              </div>
+              <span class="gx-rcard-source"><svg viewBox="0 0 48 48" width="16" height="16" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3c-1.6 4.6-6 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8c1.8-4.4 6-7.5 10.9-7.5 3.1 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.6 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.5-5.2l-6.2-5.2c-2.1 1.4-4.7 2.3-7.3 2.3-5.3 0-9.7-3.4-11.3-8l-6.6 5.1C9.4 39.7 16.1 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.2 4.2-4 5.6l6.2 5.2C41 35 44 30 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>Posted on Google</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="swiper-slide">
+          <article class="gx-rcard">
+            <div class="gx-rcard-stars">★★★★★</div>
+            <p class="gx-rcard-text">"Mani's guys were great. Very genuine. You could tell they were in it to help and not try and get as much money out of the job as possible."</p>
+            <div class="gx-rcard-meta">
+              <div>
+                <div class="gx-rcard-name">Jennifer Barker</div>
+                <div class="gx-rcard-when">2 months ago</div>
+              </div>
+              <span class="gx-rcard-source"><svg viewBox="0 0 48 48" width="16" height="16" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3c-1.6 4.6-6 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8c1.8-4.4 6-7.5 10.9-7.5 3.1 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.6 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.5-5.2l-6.2-5.2c-2.1 1.4-4.7 2.3-7.3 2.3-5.3 0-9.7-3.4-11.3-8l-6.6 5.1C9.4 39.7 16.1 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.2 4.2-4 5.6l6.2 5.2C41 35 44 30 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>Posted on Google</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="swiper-slide">
+          <article class="gx-rcard">
+            <div class="gx-rcard-stars">★★★★★</div>
+            <p class="gx-rcard-text">"I'd like to express my appreciation for the technician Mani from Gemelec, who came to fix my TV. He was absolutely wonderful, efficient, professional and very tidy. He completed the job quickly and with great care."</p>
+            <div class="gx-rcard-meta">
+              <div>
+                <div class="gx-rcard-name">Deborah Rochford</div>
+                <div class="gx-rcard-when">6 months ago</div>
+              </div>
+              <span class="gx-rcard-source"><svg viewBox="0 0 48 48" width="16" height="16" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3c-1.6 4.6-6 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8c1.8-4.4 6-7.5 10.9-7.5 3.1 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.6 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.5-5.2l-6.2-5.2c-2.1 1.4-4.7 2.3-7.3 2.3-5.3 0-9.7-3.4-11.3-8l-6.6 5.1C9.4 39.7 16.1 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.2 4.2-4 5.6l6.2 5.2C41 35 44 30 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>Posted on Google</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="swiper-slide">
+          <article class="gx-rcard">
+            <div class="gx-rcard-stars">★★★★★</div>
+            <p class="gx-rcard-text">"Had Gemelec out during the week after coming home to no power. The tech was punctual, professional and polite, getting us back in action within the hour and offering us preventative maintenance which we had done."</p>
+            <div class="gx-rcard-meta">
+              <div>
+                <div class="gx-rcard-name">Michael Ryan</div>
+                <div class="gx-rcard-when">6 months ago</div>
+              </div>
+              <span class="gx-rcard-source"><svg viewBox="0 0 48 48" width="16" height="16" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3c-1.6 4.6-6 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8c1.8-4.4 6-7.5 10.9-7.5 3.1 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.6 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.5-5.2l-6.2-5.2c-2.1 1.4-4.7 2.3-7.3 2.3-5.3 0-9.7-3.4-11.3-8l-6.6 5.1C9.4 39.7 16.1 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.2 4.2-4 5.6l6.2 5.2C41 35 44 30 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>Posted on Google</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="swiper-slide">
+          <article class="gx-rcard">
+            <div class="gx-rcard-stars">★★★★★</div>
+            <p class="gx-rcard-text">"We had a young fella named Nathan attend our office to upgrade the switchboard and cutout some downlights and he went above and beyond our expectations. He was a gun young bloke who had a great mindset and attitude."</p>
+            <div class="gx-rcard-meta">
+              <div>
+                <div class="gx-rcard-name">Beau Quigley</div>
+                <div class="gx-rcard-when">6 months ago</div>
+              </div>
+              <span class="gx-rcard-source"><svg viewBox="0 0 48 48" width="16" height="16" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3c-1.6 4.6-6 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8c1.8-4.4 6-7.5 10.9-7.5 3.1 0 5.8 1.1 7.9 3l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.6 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.5-5.2l-6.2-5.2c-2.1 1.4-4.7 2.3-7.3 2.3-5.3 0-9.7-3.4-11.3-8l-6.6 5.1C9.4 39.7 16.1 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.2 4.2-4 5.6l6.2 5.2C41 35 44 30 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>Posted on Google</span>
+            </div>
+          </article>
+        </div>
+
       </div>
-      <div class="gx-tcard-dark">
-        <div class="gx-tcard-stars">★★★★★</div>
-        <p>"Shout out to Gemelec who went above and beyond to help me install my ceiling fan. The guys were communicative, easy to deal with, and even went to Beacon Lighting to pick up our fan for us. Absolutely would recommend Mani and the team for any job you need done."</p>
-        <div class="gx-tcard-name">Kelly Teng</div>
-        <div class="gx-tcard-where">Google review</div>
-      </div>
-      <div class="gx-tcard-dark">
-        <div class="gx-tcard-stars">★★★★★</div>
-        <p>"Harry from Gemelec arrived on time with his apprentice and installed one kitchen fan and three other lights. They were polite, cleaned up afterwards and took away rubbish. I would highly recommend them for any electrical work."</p>
-        <div class="gx-tcard-name">Carolyn W.</div>
-        <div class="gx-tcard-where">Google review</div>
-      </div>
-      <div class="gx-tcard-dark">
-        <div class="gx-tcard-stars">★★★★★</div>
-        <p>"Mani's guys were great. Very genuine. You could tell they were in it to help and not try and get as much money out of the job as possible. Fixed a bunch of ceiling lights that weren't working and some wall lights."</p>
-        <div class="gx-tcard-name">Jennifer Barker</div>
-        <div class="gx-tcard-where">Google review</div>
+
+      <div class="gx-swiper-nav">
+        <button class="gx-prev" aria-label="Previous review">&#x2039;</button>
+        <button class="gx-next" aria-label="Next review">&#x203A;</button>
       </div>
     </div>
+
   </div>
 </section>
 
@@ -514,5 +613,23 @@
 </footer>
 
 <script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  if (window.Swiper) {
+    new Swiper('.gx-reviews-swiper', {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: true,
+      grabCursor: true,
+      autoplay: { delay: 5000, disableOnInteraction: false, pauseOnMouseEnter: true },
+      navigation: { nextEl: '.gx-next', prevEl: '.gx-prev' },
+      breakpoints: {
+        640:  { slidesPerView: 1.4, spaceBetween: 20 },
+        900:  { slidesPerView: 2.2, spaceBetween: 24 },
+        1200: { slidesPerView: 3, spaceBetween: 28 }
+      }
+    });
+  }
+</script>
 </body>
 </html>
