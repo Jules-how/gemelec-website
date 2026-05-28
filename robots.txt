@@ -2,4 +2,20 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://gemelec.sydney/sitemap.xml
+# AI crawlers - explicitly allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://gemelec-website.netlify.app/sitemap.xml
