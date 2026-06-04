@@ -18,9 +18,9 @@ Emmanuel "Mani" Gemelas runs Gemelec Electrical Services. NSW Master Licence 000
 Matraville, Botany, Mascot, Eastgardens, Rosebery, Alexandria, Waterloo, Zetland, Bondi, Coogee, Randwick, Maroubra, Kingsford, Paddington, Woolloomooloo, Potts Point, Darlinghurst, Surry Hills, Redfern, Newtown, Glebe, Pyrmont, Ultimo, Chippendale
 
 ## Key pages
-- [Homepage](https://gemelec-website.netlify.app/): services overview, reviews, contact
-- [Emergency Electrician](https://gemelec-website.netlify.app/services/emergency-electrician): 24/7 callouts
-- [Switchboard Upgrades](https://gemelec-website.netlify.app/services/switchboard-upgrades): pricing typically $800-$2,500
-- [EV Charger Installation](https://gemelec-website.netlify.app/services/ev-charger-installation): all major brands
-- [About](https://gemelec-website.netlify.app/about): Mani's story, licences, experience
-- [Contact](https://gemelec-website.netlify.app/contact): phone, email, quote form
+- [Homepage](https://www.gemelec.com.au/): services overview, reviews, contact
+- [Emergency Electrician](https://www.gemelec.com.au/services/emergency-electrician): 24/7 callouts
+- [Switchboard Upgrades](https://www.gemelec.com.au/services/switchboard-upgrades): pricing typically $800-$2,500
+- [EV Charger Installation](https://www.gemelec.com.au/services/ev-charger-installation): all major brands
+- [About](https://www.gemelec.com.au/about): Mani's story, licences, experience
+- [Contact](https://www.gemelec.com.au/contact): phone, email, quote form
