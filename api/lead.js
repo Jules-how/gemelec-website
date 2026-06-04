@@ -147,6 +147,22 @@ async function appendLead(row) {
   return appendPayload
 }
 
+async function notifyLeadWebhook(row) {
+  const webhookUrl = process.env.N8N_LEAD_WEBHOOK_URL
+
+  if (!webhookUrl) return
+
+  try {
+    await fetch(webhookUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(row)
+    })
+  } catch (error) {
+    console.error('Lead webhook notify failed:', error)
+  }
+}
+
 module.exports = async function handler(req, res) {
   if (req.method === 'OPTIONS') {
     res.setHeader('Allow', 'POST, OPTIONS')
@@ -206,6 +222,7 @@ module.exports = async function handler(req, res) {
     }
 
     await appendLead(row)
+    await notifyLeadWebhook(row)
 
     return send(res, 200, {
       ok: true,

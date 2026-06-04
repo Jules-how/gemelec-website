@@ -13,6 +13,16 @@ Set these in Vercel for Production, Preview, and Development:
 | `GOOGLE_SHEET_ID` | `1B8D8_mrkJ7mhw5UPpohdBW3Jj96zcLs7wLNC2mAauQ8` |
 | `GOOGLE_SHEET_TAB` | `Gemelec - Web Leads` |
 
+## Lead Notification Webhook (Production only)
+
+Set this in **Production only** (not Preview/Development), so preview deploys do not fire real lead emails:
+
+| Name | Value |
+| --- | --- |
+| `N8N_LEAD_WEBHOOK_URL` | `https://jules02.app.n8n.cloud/webhook/gemelec-lead` |
+
+On each new lead, `/api/lead` POSTs the lead to this n8n webhook, which emails it to `info@gemelec.sydney` (workflow "Gemelec Website Lead Notifications"). If the variable is unset, the form still works and still writes to the Google Sheet; only the email notification is skipped.
+
 ## Google Sheet Permission
 
 Share the Google Sheet with the `GOOGLE_SERVICE_ACCOUNT_EMAIL` as an editor. Without that permission, the Vercel function will reject real enquiries with a Google Sheets permission error.
