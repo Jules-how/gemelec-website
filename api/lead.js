@@ -150,16 +150,24 @@ async function appendLead(row) {
 async function notifyLeadWebhook(row) {
   const webhookUrl = process.env.N8N_LEAD_WEBHOOK_URL
 
-  if (!webhookUrl) return
+  if (!webhookUrl) return false
 
   try {
-    await fetch(webhookUrl, {
+    const response = await fetch(webhookUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(row)
     })
+
+    if (!response.ok) {
+      console.error('Lead webhook returned non-ok status:', response.status)
+      return false
+    }
+
+    return true
   } catch (error) {
     console.error('Lead webhook notify failed:', error)
+    return false
   }
 }
 
@@ -221,8 +229,22 @@ module.exports = async function handler(req, res) {
       notes: ''
     }
 
-    await appendLead(row)
-    await notifyLeadWebhook(row)
+    const sheetSaved = await appendLead(row)
+      .then(() => true)
+      .catch(error => {
+        console.error('Lead sheet append failed:', error)
+        return false
+      })
+
+    const webhookSent = await notifyLeadWebhook(row)
+
+    if (!sheetSaved && !webhookSent) {
+      console.error('Lead not captured by any destination:', row.lead_id)
+      return send(res, 500, {
+        ok: false,
+        message: 'Sorry, the enquiry could not be sent. Please call 0498 351 351.'
+      })
+    }
 
     return send(res, 200, {
       ok: true,
