@@ -2353,3 +2353,9 @@ textarea:focus-visible {
     .gx-reviews-head { align-items: flex-start; }
     .gx-google-badge { width: 100%; justify-content: flex-start; }
   }
+
+/* === ADDED 2026-06-04: footer logo aspect-ratio fix === */
+/* .nav-logo is a flex-direction:column container; its default align-items:stretch
+   was stretching the footer logo <img> to the width of the wide brand column.
+   Pin alignment so the footer logo keeps the same intrinsic size as the header. */
+.footer .nav-logo { align-items: flex-start; }
