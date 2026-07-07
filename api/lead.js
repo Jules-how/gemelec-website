@@ -29,8 +29,8 @@ const HEADERS = [
   'notes'
 ]
 
-const DEFAULT_SHEET_ID = '1B8D8_mrkJ7mhw5UPpohdBW3Jj96zcLs7wLNC2mAauQ8'
-const DEFAULT_SHEET_TAB = 'Gemelec - Web Leads'
+const DEFAULT_SHEET_ID = '1E5So0KBv8geIEahMrw3qaZGzjDll2pDrugjGikwei4c'
+const DEFAULT_SHEET_TAB = 'Web Leads'
 
 function send(res, statusCode, payload) {
   res.statusCode = statusCode
